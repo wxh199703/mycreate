@@ -1,0 +1,32 @@
+.logo {
+  float: left;
+  width: 125px;
+  height: 31px;
+  margin: 16px 24px 16px 0;
+  background: #ddd url("../images/1608686956_273964.png");
+  background-size: cover;
+}
+
+.div {
+  width: 160px;
+  border: 1px solid #ddd;
+  text-align: center;
+  margin: 6px;
+  padding: 4px;
+  box-shadow: 0 0 6px #ddd;
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+  &:hover {
+    opacity: 0.9;
+    transform: rotate(1deg) scale(1.03);
+  }
+}
+img {
+  width: 100px;
+  height: 140px;
+}
+
+.title {
+  font-size: 14px;
+}
